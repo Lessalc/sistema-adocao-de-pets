@@ -1,4 +1,4 @@
-package com.lessalc.adopet.tutor;
+package com.lessalc.adopet.domain.tutor;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

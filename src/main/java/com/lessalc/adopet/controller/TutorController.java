@@ -1,6 +1,6 @@
 package com.lessalc.adopet.controller;
 
-import com.lessalc.adopet.tutor.DadosCadastroTutores;
+import com.lessalc.adopet.domain.tutor.DadosCadastroTutores;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
