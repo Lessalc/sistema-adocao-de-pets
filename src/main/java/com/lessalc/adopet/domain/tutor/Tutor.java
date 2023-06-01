@@ -1,7 +1,7 @@
-package com.lessalc.adopet.tutor;
+package com.lessalc.adopet.domain.tutor;
 
 
-import com.lessalc.adopet.usuario.Usuario;
+import com.lessalc.adopet.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

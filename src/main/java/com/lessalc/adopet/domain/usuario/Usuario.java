@@ -1,4 +1,4 @@
-package com.lessalc.adopet.usuario;
+package com.lessalc.adopet.domain.usuario;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
