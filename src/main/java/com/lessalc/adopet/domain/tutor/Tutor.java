@@ -31,4 +31,24 @@ public class Tutor {
         this.email = dados.email();
         this.senha = dados.senha();
     }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setTelefone(String telefone) {
+        this.telefone = telefone;
+    }
+
+    public void setSobre(String sobre) {
+        this.sobre = sobre;
+    }
+
+    public void setCidade(String cidade) {
+        this.cidade = cidade;
+    }
+
+    public void setUrlFoto(String urlFoto) {
+        this.urlFoto = urlFoto;
+    }
 }
