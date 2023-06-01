@@ -1,7 +1,5 @@
 package com.lessalc.adopet.domain.tutor;
 
-
-import com.lessalc.adopet.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -14,11 +12,13 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode(of = "id")
-public class Tutor extends Usuario {
+public class Tutor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    private String email;
+    private String senha;
     private String nome;
     private String telefone;
     private String sobre;
@@ -26,4 +26,9 @@ public class Tutor extends Usuario {
     private String urlFoto;
 
 
+    public Tutor(DadosCadastroTutores dados) {
+        this.nome = dados.nome();
+        this.email = dados.email();
+        this.senha = dados.senha();
+    }
 }
